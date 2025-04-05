@@ -15,10 +15,8 @@ class MyViewModel : ViewModel() {
     val response = mutableStateOf<NewsModels?>(null)
     val repo = Repo()
 
-
     init {
         fetchNews()
-
     }
 
     fun fetchNews(){

@@ -64,9 +64,9 @@ dependencies {
     //Retrofit
     implementation (libs.retrofit)
     implementation (libs.squareup.converter.gson)
-    implementation (libs.gson)
     implementation(libs.okhttp)
     implementation(libs.coil.compose)
     implementation(libs.coil.network.okhttp)
     implementation(libs.androidx.navigation.compose)
+    implementation (libs.gson)
 }

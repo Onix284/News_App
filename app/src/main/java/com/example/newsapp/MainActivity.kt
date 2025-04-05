@@ -7,6 +7,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.example.newsapp.MyViewModel.MyViewModel
 import com.example.newsapp.Screens.HomeUI
+import com.example.newsapp.Screens.NavigationGraph
 import kotlinx.coroutines.DelicateCoroutinesApi
 
 @OptIn(DelicateCoroutinesApi::class)
@@ -16,7 +17,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            HomeUI(viewModel)
+            NavigationGraph(viewModel)
         }
     }
 }
